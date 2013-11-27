@@ -13,6 +13,25 @@
 
     <!-- body -->
     <div data-role="content">
+        <div data-role="collapsible-set" data-content-theme="b">
+            <div data-role="collapsible" data-collapsed="false">
+                <h3>
+                    Section Header
+                </h3>
+                <a href="abc" target="_blank">
+                    <div style="width: 75%; height: 100px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+                        <img src="http://codiqa.com/static/images/v2/image.png" alt="image" style="position: absolute; top: 50%; left: 50%; margin-left: -16px; margin-top: -18px">
+                    </div>
+                </a>
+                xxxxxxxxxx
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">a
+                    </div>
+                    <div class="ui-block-b">b
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="ui-grid-b">
             <div class="ui-block-a" width="15%">
                 <input type="submit" data-inline="true" data-theme="b" data-icon="plus"
