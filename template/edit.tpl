@@ -4,6 +4,32 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+
+    <style>
+
+        .sender-container {
+            position: relative;
+        }
+
+        .sender-a {
+            text-align: center;
+        }
+
+        .input-container {
+            margin: 0;
+        }
+
+        .input-container textarea {
+            display: inline-block;
+            width: 100% !important;
+        }
+
+        .ui-block-c .ui-btn {
+            margin: 2px 0 0 20px;
+        }
+
+    </style>
+
 </head>
 <body>
 <div id="p1" data-role="page" data-add-back-btn="true">
@@ -32,17 +58,17 @@
                 </div>
             </div>
         </div>
-        <div class="ui-grid-b">
-            <div class="ui-block-a" style="width : 15%">
+        <div class="ui-grid-b sender-container">
+            <div class="ui-block-a sender-a" style="width : 10%">
                 <input type="submit" data-inline="true" data-theme="b" data-icon="plus"
                        data-iconpos="top" value="" data-mini="true">
             </div>
             <div class="ui-block-b" style="width : 70%">
-                <div data-role="fieldcontain">
+                <div data-role="fieldcontain" class="input-container">
                     <textarea name="" id="textarea2" placeholder="请输入..." data-mini="true"></textarea>
                 </div>
             </div>
-            <div class="ui-block-c" style="width : 15%">
+            <div class="ui-block-c" style="width : 18%">
                 <input type="submit" data-theme="b" value="send">
             </div>
         </div>
