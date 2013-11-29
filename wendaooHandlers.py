@@ -21,3 +21,11 @@ class MyStuHandler (tornado.web.RequestHandler) :
 class EditHandler (tornado.web.RequestHandler) :
     def get(self) :
         self.render("template/edit.tpl")
+
+class LoginHandler (tornado.web.RequestHandler) :
+    def get(self) :
+        self.render("template/login.tpl")
+
+class ModPasswordHandler (tornado.web.RequestHandler) :
+    def get(self) :
+        self.render("template/modpassword.tpl")

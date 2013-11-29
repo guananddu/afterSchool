@@ -33,16 +33,16 @@
             </div>
         </div>
         <div class="ui-grid-b">
-            <div class="ui-block-a" width="15%">
+            <div class="ui-block-a" style="width : 15%">
                 <input type="submit" data-inline="true" data-theme="b" data-icon="plus"
                        data-iconpos="top" value="" data-mini="true">
             </div>
-            <div class="ui-block-b" width="70%">
+            <div class="ui-block-b" style="width : 70%">
                 <div data-role="fieldcontain">
                     <textarea name="" id="textarea2" placeholder="请输入..." data-mini="true"></textarea>
                 </div>
             </div>
-            <div class="ui-block-c" width="15%">
+            <div class="ui-block-c" style="width : 15%">
                 <input type="submit" data-theme="b" value="send">
             </div>
         </div>

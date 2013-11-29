@@ -13,7 +13,9 @@ application = tornado.web.Application([
     (r"/check", CheckStartHandler),
     (r"/index", wendaooHandlers.IndexHandler),
     (r"/myStuList", wendaooHandlers.MyStuHandler),
-    (r"/edit", wendaooHandlers.EditHandler)
+    (r"/edit", wendaooHandlers.EditHandler),
+    (r"/login", wendaooHandlers.LoginHandler),
+    (r"/modpassword", wendaooHandlers.ModPasswordHandler)
 ])
 
 if __name__ == "__main__":

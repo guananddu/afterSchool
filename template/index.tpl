@@ -9,7 +9,9 @@
     <div id="p1" data-role="page" data-add-back-btn="true">
         <div data-role="header" data-theme="b">
             <h1>Page Title</h1>
+            <a href="#" data-role="button" data-rel="back" data-icon="back">Back</a>
         </div>
+
         <div data-role="collapsible-set" data-content-theme="b" id="set">
             <div data-role="collapsible" id="set1" data-collapsed="false">
                 <h3>Section 1</h3>
